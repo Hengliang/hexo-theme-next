@@ -62,6 +62,7 @@
   #}{{ theme.footer.custom_text }}{#
 #}</div>
 {% endif %}
+<div class="delimiter">- - -</div>
 <h3>SPONSORS</h3>
 <ul class="sponsors">
   <li>
@@ -69,5 +70,11 @@
   </li>
   <li>
     <a href="https://pages.github.com/" target="_blank"><img src="/resources/sponsors/github.png"/></a>
+  </li>
+  <li>
+    <a href="https://travis-ci.org" target="_blank"><img src="/resources/sponsors/travis-ci.png"/></a>
+  </li>
+  <li style="margin-left:10px">
+    <a href="https://www.qiniu.com/" target="_blank"><img src="/resources/sponsors/qiniu.jpg"/></a>
   </li>
 </ul>
