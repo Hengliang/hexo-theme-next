@@ -62,8 +62,8 @@
   #}{{ theme.footer.custom_text }}{#
 #}</div>
 {% endif %}
-<ul class="sponsors" style="list-style-type:none;text-align:center">
-  <a href="https://pages.coding.me">
-    <li style="display:inline-block;margin-right:45px"><img src="/resources/coding-pages.png"/></li>
-  </a>
+<ul class="sponsors">
+  <li>
+    <a href="https://pages.coding.me"><img src="/resources/coding-pages.png"/></a>
+  </li>
 </ul>
