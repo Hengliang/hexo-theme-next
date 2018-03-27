@@ -50,7 +50,7 @@
 
 {% if theme.footer.theme.enable %}
   <div class="theme-info">{#
-  #}{{ __('footer.theme') }} &mdash; {#
+  #}{# {{ __('footer.theme') }} &mdash; #}{#
   #}<a class="theme-link" target="_blank"{{ nofollow }} href="https://github.com/theme-next/hexo-theme-next">{#
     #}NexT.{{ theme.scheme }}{#
   #}</a>{% if theme.footer.theme.version %} v{{ theme.version }}{% endif %}{#
@@ -66,15 +66,23 @@
 <h3>SPONSORS</h3>
 <ul class="sponsors">
   <li>
-    <a href="https://pages.coding.me" target="_blank"><img src="/resources/sponsors/coding-pages.png"/></a>
+    <a href="https://pages.coding.me" target="_blank" ref="external nofollow">
+      <img src="/resources/sponsors/coding-pages.png"/>
+    </a>
   </li>
   <li>
-    <a href="https://pages.github.com/" target="_blank"><img src="/resources/sponsors/github.png"/></a>
+    <a href="https://pages.github.com/" target="_blank" ref="external nofollow">
+      <img src="/resources/sponsors/github.png"/>
+    </a>
   </li>
   <li>
-    <a href="https://travis-ci.org" target="_blank"><img src="/resources/sponsors/travis-ci.png"/></a>
+    <a href="https://travis-ci.org" target="_blank" ref="external nofollow">
+      <img src="/resources/sponsors/travis-ci.png"/>
+    </a>
   </li>
   <li style="margin-left:10px">
-    <a href="https://www.qiniu.com/" target="_blank"><img src="/resources/sponsors/qiniu.jpg"/></a>
+    <a href="https://www.qiniu.com/" target="_blank" ref="external nofollow">
+      <img src="/resources/sponsors/qiniu.jpg"/>
+    </a>
   </li>
 </ul>
