@@ -65,9 +65,9 @@
 <h3>SPONSORS</h3>
 <ul class="sponsors">
   <li>
-    <a href="https://pages.coding.me"><img src="/resources/sponsors/coding-pages.png"/></a>
+    <a href="https://pages.coding.me" target="_blank"><img src="/resources/sponsors/coding-pages.png"/></a>
   </li>
   <li>
-    <a href="https://pages.github.com/"><img src="/resources/sponsors/github.png"/></a>
+    <a href="https://pages.github.com/" target="_blank"><img src="/resources/sponsors/github.png"/></a>
   </li>
 </ul>
