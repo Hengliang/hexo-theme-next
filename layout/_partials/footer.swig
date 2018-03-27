@@ -64,6 +64,9 @@
 {% endif %}
 <ul class="sponsors">
   <li>
-    <a href="https://pages.coding.me"><img src="/resources/coding-pages.png"/></a>
+    <a href="https://pages.coding.me"><img src="/resources/sponsors/coding-pages.png"/></a>
+  </li>
+  <li>
+    <a href="https://pages.github.com/"><img src="/resources/sponsors/github.png"/></a>
   </li>
 </ul>
